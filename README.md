@@ -12,7 +12,6 @@
 - class Task:
 
   - title: string
-
   - description: string
   - dueDate: date
   - priority: enum (high, medium, low)
@@ -22,7 +21,7 @@
 // Create an empty list to store tasks
 </span>
 
-tasks = []
+empty variable ( tasks )
 
 <span style="color:#DB8A74">
 // Function to add a new task to the list
