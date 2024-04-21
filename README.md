@@ -121,6 +121,7 @@ empty variable ( tasks )
 ### 1. Define the Task class:
 
 ```csharp
+using System;
 /// Priority Values
 public enum Priority
 {
@@ -156,7 +157,6 @@ public class TaskItem
         Completed = false;
     }
 }
-
 ```
 
 ### 2. Define The Controller And Methods:
@@ -593,3 +593,5 @@ namespace TMA
 ### 5. No Tasks To List:
 
 ![No Tasks To List](./screenshots/error_no_tasks.png)
+
+---
