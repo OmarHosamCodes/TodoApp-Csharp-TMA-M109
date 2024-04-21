@@ -485,7 +485,7 @@ namespace TMA
 
 ---
 
-## PART 3 (Screenshots):
+## PART 3-1 (Screenshots):
 
 ### **Main Menu:**
 
@@ -573,4 +573,24 @@ namespace TMA
 
 ---
 
-## PART 4 (Handling Errors):
+## PART 3-2 (Handling Errors):
+
+### 1. Invalid Task ID:
+
+![Invalid Task ID](./screenshots/error_task_id.png)
+
+### 2. Invalid Date Format:
+
+![Invalid Date Format](./screenshots/error_date_format.png)
+
+### 3. Invalid Priority:
+
+![Invalid Priority](./screenshots/error_priority.png)
+
+### 4. Invalid Option:
+
+![Invalid Option](./screenshots/error_option.png)
+
+### 5. No Tasks To List:
+
+![No Tasks To List](./screenshots/error_no_tasks.png)
