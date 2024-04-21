@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/TMA.csproj": {}
+    "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/TMA.csproj": {}
   },
   "projects": {
-    "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/TMA.csproj": {
+    "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/TMA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/TMA.csproj",
+        "projectUniqueName": "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/TMA.csproj",
         "projectName": "TMA",
-        "projectPath": "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/TMA.csproj",
+        "projectPath": "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/TMA.csproj",
         "packagesPath": "/home/omar/.nuget/packages/",
-        "outputPath": "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/obj/",
+        "outputPath": "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/omar/.nuget/NuGet/NuGet.Config"
@@ -57,7 +57,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.3, 8.0.3]"
+              "version": "[8.0.4, 8.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

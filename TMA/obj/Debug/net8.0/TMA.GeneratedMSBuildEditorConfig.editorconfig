@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TMA
-build_property.ProjectDir = /mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/
+build_property.ProjectDir = /mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,15 @@
-﻿
-class Program
+﻿/// TMA - M109
+/// Omar Hossam Haider
+/// 23513600
+namespace TMA
 {
-    static void Main()
+    /// Main class
+    class Program
     {
-        TodoController.RunTodoList();
+        /// Entry point
+        static void Main()
+        {
+            TodoController.RunTodoList();
+        }
     }
 }

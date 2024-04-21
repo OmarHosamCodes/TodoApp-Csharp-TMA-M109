@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJCIf+whM9c6NaCJlDPIVDOFD3Z78kRTioGdtX1EietcOPQa8BbF5LCjovf4UXdml2giXPAljSWDaAMMhhREag==",
+  "dgSpecHash": "FyRZb1tqHsej5vQDOZLDZaVFvmLE3Xd1Xspm26KjX9W/gJhuwYQwYuhfIm8DCSFrt9ZkGCQZzuSsQpP8iWX9zg==",
   "success": true,
-  "projectFilePath": "/mnt/584F1C5E7E00D83D/Projects/Programming/Csharp/TMA/TMA.csproj",
+  "projectFilePath": "/mnt/584F1C5E7E00D83D/College/assignments/TMA/M109/TMA-Project/TMA/TMA.csproj",
   "expectedPackageFiles": [
     "/home/omar/.nuget/packages/consoletables/2.4.2/consoletables.2.4.2.nupkg.sha512",
     "/home/omar/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -14,7 +14,7 @@
     "/home/omar/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/home/omar/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/omar/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/home/omar/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+    "/home/omar/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }

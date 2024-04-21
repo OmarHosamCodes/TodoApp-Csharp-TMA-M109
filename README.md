@@ -1,3 +1,168 @@
+# TMA - TM109
+
+- Omar Hossam Haider
+- 23513600
+
+## PART 1 (Pseudocode):
+
+<span style="color:#DB8A74">
+// Define a Task structure to hold task details
+</span>
+
+- class Task:
+
+  - title: string
+
+  - description: string
+  - dueDate: date
+  - priority: enum (high, medium, low)
+  - completed: boolean
+
+<span style="color:#DB8A74">
+// Create an empty list to store tasks
+</span>
+
+tasks = []
+
+<span style="color:#DB8A74">
+// Function to add a new task to the list
+</span>
+
+- function addTask(title, description, dueDate, priority):
+  - task = create Task with provided details
+  - add task to tasks list
+  - print "Task added successfully"
+
+<span style="color:#DB8A74">
+// Function to list all tasks
+</span>
+
+- function listTasks():
+  - if tasks is empty:
+    - print "No tasks found"
+  - else:
+    - for each task in tasks:
+    - print task details in a readable format
+
+<span style="color:#DB8A74">
+// Function to replace an existing task with new details
+</span>
+
+- function editTask(id, title, description, dueDate, priority):
+  - if id is invalid:
+    - print "Invalid task ID"
+  - else:
+    - find task in tasks list with matching id
+    - update task details with provided values
+    - print "Task edited successfully"
+
+<span style="color:#DB8A74">
+// Function to mark a task as completed
+</span>
+
+- function markCompleted(id):
+  - if id is invalid:
+    - print "Invalid task ID"
+  - else:
+    - find task in tasks list with matching id
+    - set task completed status to true
+    - print "Task marked as completed"
+
+<span style="color:#DB8A74">
+// Function to delete a task from the list
+</span>
+
+- function deleteTask(id):
+  - if id is invalid:
+    - print "Invalid task ID"
+  - else:
+    - find task in tasks list with matching id
+    - remove task from tasks list
+    - print "Task deleted successfully"
+
+<span style="color:#DB8A74">
+// Function to set the priority of a task
+</span>
+
+- function setPriority(id, priority):
+  - if id is invalid:
+    - print "Invalid task ID"
+  - else:
+    - find task in tasks list with matching id
+    - update task priority with provided value
+    - print "Task priority updated successfully"
+
+<span style="color:#DB8A74">
+// Main function to run the To-Do List application
+</span>
+
+- function main():
+  - display welcome message
+  - loop until user chooses to exit:
+  - display menu options
+  - read user choice
+  - handle user choice: - add a task - list all tasks - edit a task - mark a task as completed - delete a task - set task priority - exit the application
+  - display goodbye message
+
+## PART 2 (CSharp Code):
+
+---
+
+### prerequisites:
+
+- Visual Studio Version 17.0.0
+- .NET 8
+- ConsoleTables 2.6.1 (NuGet Package)
+  ```
+  dotnet add package ConsoleTables --version 2.6.1
+  ```
+
+---
+
+### 1. Define the Task class:
+
+```csharp
+/// Priority Values
+public enum Priority
+{
+    /// High priority
+    High,
+    /// Medium priority
+    Medium,
+    /// Low priority
+    Low
+}
+
+/// Task Item Model
+public class TaskItem
+{
+    /// Task Title
+    public string Title { get; set; }
+    /// Task Description
+    public string Description { get; set; }
+    /// Task Due Date
+    public DateTime DueDate { get; set; }
+    /// Task Priority
+    public Priority Priority { get; set; }
+    /// Task Completion Status
+    public bool Completed { get; set; }
+
+    /// Task Item Constructor
+    public TaskItem(string title, string description, DateTime dueDate, Priority priority)
+    {
+        Title = title;
+        Description = description;
+        DueDate = dueDate;
+        Priority = priority;
+        Completed = false;
+    }
+}
+
+```
+
+### 2. Define The Controller And Methods:
+
+```csharp
 using System;
 using ConsoleTables;
 using System.Collections.Generic;
@@ -293,3 +458,119 @@ public static class TodoController
         } while (choice != "exit" || choice != "7");
     }
 }
+
+
+```
+
+### 3. Run The Application:
+
+```csharp
+/// TMA - M109
+/// Omar Hossam Haider
+/// 23513600
+namespace TMA
+{
+    /// Main class
+    class Program
+    {
+        /// Entry point
+        static void Main()
+        {
+            TodoController.RunTodoList();
+        }
+    }
+}
+
+```
+
+---
+
+## PART 3 (Screenshots):
+
+### **Main Menu:**
+
+![Main Menu](./screenshots/main_menu.png)
+
+---
+
+### 1. Add Task:
+
+![Add Task](./screenshots/add_task_1.png)
+
+![Add Task](./screenshots/add_task_2.png)
+
+![Add Task](./screenshots/add_task_3.png)
+
+![Add Task](./screenshots/add_task_4.png)
+
+![Add Task](./screenshots/add_task_5.png)
+
+![Add Task](./screenshots/add_task_6.png)
+
+---
+
+### 2. List Tasks:
+
+![List Tasks](./screenshots/list_tasks_1.png)
+
+![List Tasks](./screenshots/list_tasks_2.png)
+
+---
+
+### 3. Edit Task:
+
+![Edit Task](./screenshots/edit_task_1.png)
+
+![Edit Task](./screenshots/edit_task_2.png)
+
+![Edit Task](./screenshots/edit_task_3.png)
+
+![Edit Task](./screenshots/edit_task_4.png)
+
+![Edit Task](./screenshots/edit_task_5.png)
+
+![Edit Task](./screenshots/edit_task_6.png)
+
+![Edit Task](./screenshots/edit_task_7.png)
+
+---
+
+### 4. Mark Task As Completed:
+
+![Mark Task As Completed](./screenshots/complete_task_1.png)
+
+![Mark Task As Completed](./screenshots/complete_task_2.png)
+
+![Mark Task As Completed](./screenshots/complete_task_3.png)
+
+---
+
+### 5. Delete Task:
+
+![Delete Task](./screenshots/delete_task_1.png)
+
+![Delete Task](./screenshots/delete_task_2.png)
+
+![Delete Task](./screenshots/delete_task_3.png)
+
+---
+
+### 6. Set Task Priority:
+
+![Set Task Priority](./screenshots/set_priority_1.png)
+
+![Set Task Priority](./screenshots/set_priority_2.png)
+
+![Set Task Priority](./screenshots/set_priority_3.png)
+
+---
+
+### 7. Exit Application:
+
+![Exit Application](./screenshots/exit_app_1.png)
+
+![Exit Application](./screenshots/exit_app_2.png)
+
+---
+
+## PART 4 (Handling Errors):
